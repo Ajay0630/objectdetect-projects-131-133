@@ -1,0 +1,17 @@
+body{
+    background-size: cover;
+}
+
+.btn{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 400px;
+    display: block;
+}
+
+#btn-holder{
+    width: fit-content;
+    border-radius: 25%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(255, 255, 255, 0) 100%);
+}

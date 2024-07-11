@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Detection: Around the House</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js" integrity="sha512-At/xiUTqCg8jxnCMRNDhDVDm4qxlyPt1K+GrDhUvRvR8MjlBq0RH65OVVaCXn3OuvyVWK8CdlQpxgrc/5YspHw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+    <body background="geometric-pattern-spiral-neon-gradient-black-background-5k-3840x2160-1202.png">
+        <div class="mt-4 p-5 text-white rounded">
+            <h1><kbd>Object Detection: Around the House</kbd></h1>
+            <kbd><b>Click on any of the links below to <a href="#" style="color: white; text-decoration: none;">continue</a>.</b></kbd>
+        </div>
+        <div id="btn-holder">
+            <br><br>
+            <button class="btn btn-outline-warning btn-lg" onclick="kitchen()"><b>Kitchen</b></button>
+            <br><br>
+            <button class="btn btn-outline-warning btn-lg" onclick="closet()"><b>Closet</b></button>
+            <br><br>
+            <button class="btn btn-outline-warning btn-lg" onclick="bedroom()"><b>Bedroom</b></button>
+            <br><br>
+            <button class="btn btn-outline-warning btn-lg" onclick="livingRoom()"><b>Living Room</b></button>
+            <br><br>
+            <button class="btn btn-outline-warning btn-lg" onclick="basement()"><b>Basement</b></button>
+            <br><br>
+        </div>
+    </body>
+</html>
